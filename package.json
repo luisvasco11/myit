@@ -15,10 +15,7 @@
     "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm start"
   },
-  "engines": {
-    "node": "v8.11.4",
-    "npm": "5.8.0"
-  },
+  
 
   
 
